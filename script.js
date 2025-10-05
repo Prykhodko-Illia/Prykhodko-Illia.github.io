@@ -241,7 +241,7 @@ function init() {
 
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
     scene.add(ambientLight);
-
+  
     const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
     directionalLight.position.set(5, 3, 5);
     scene.add(directionalLight);
@@ -489,7 +489,7 @@ function setupEventListeners() {
 
     window.addEventListener('resize', onWindowResize);
 
-    const dateSlider = document.getElementById('date-slider');
+      const dateSlider = document.getElementById('date-slider');
     const dateDisplay = document.getElementById('current-date-display');
     const dateFormatToggle = document.getElementById('date-format-toggle');
     
